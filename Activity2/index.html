@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Activity 2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <p>Header</p>
+    </header>
+
+    <div class="container">
+        <section class="form">
+            <br>
+            <form action="/action_page.php">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="lname">Phone:</label>
+                <input type="number" id="phone" name="number"><br><br>
+                <label for="fname">Email:</label>
+                <input type="text" id="Email" name="Email"><br><br>
+                <label for="lname">Pick up Date/Time</label>
+                <input type="datetime-local" id="datetime" name="datetime"><br><br>
+                <label for="lname">Pick up Place</label>
+                <select name="Place" id="place">
+                    <option value="Quezon City">Quezon City</option>
+                    <option value="Fairview">Fairview</option>
+                    <option value="North">North</option>
+                </select>
+                <br><br>
+                <label for="name">Drop off place:</label>
+                <input type="text" id="dropoff" name="dropoff"><br><br>
+                <br>
+                <input type="submit" class="submit" value="Submit Booking">
+            </form>
+        </section>
+        <section class="half">
+            <form class="vehicle" action="/action_page.php">
+                <p>Which vehicle do you require:</p>
+                <input type="radio" id="van" name="van" value="van">
+                <label for="html">Van</label><br>
+                <input type="radio" id="jeep" name="jeep" value="jeep">
+                <label for="css">Jeep</label><br>
+                <input type="radio" id="tricycle" name="tricycle" value="tricycle">
+                <label for="javascript">Tricycle</label>
+                <p>Extras</p>
+                <input type="checkbox" id="babyseat" name="babyseat" value="babyseat">
+                <label for="babyseat"> Baby Seat</label><br>
+                <input type="checkbox" id="Wheelchair" name="Wheelchair" value="Wheelchair">
+                <label for="Wheelchair"> Wheelchair</label><br>
+                <input type="checkbox" id="stock" name="stock" value="stock">
+                <label for="stock"> Stock Tip</label><br><br>
+            </form>
+        </section>
+        <section class="aside">
+            <p>Aside</p>
+        </section>
+        <section class="nav">
+            <p>Nav</p>
+        </section>
+    </div>
+    <footer>
+        <p>Footer</p>
+    </footer>
+</body>
+
+</html>

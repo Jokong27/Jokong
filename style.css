@@ -1,0 +1,55 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    border-style: double;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header {
+    background-color: gray;
+    margin-top: -40px;
+    margin-left:-20px;
+    margin-right: -20px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+p {
+    text-align: center;
+}
+
+.career {
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.personal {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.Educ {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+h5 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.info {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}

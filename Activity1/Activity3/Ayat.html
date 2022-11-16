@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container bg-light ">
+        <div class="row">
+            <div class="col-md-3">
+                <form>
+                    <h4 class="text-primary pt-2">Your cart<span
+                            class="badge rounded-pill bg-primary ms-4 ps-3">3</span></h4>
+                    <ol class="list-group">
+                        <li class="list-group-item justify-content-between align-items-start">
+                            <div class="me-5">
+                                <div class="fw-bold">Product name</div>
+                                Brief description
+                            </div>
+                        </li>
+                        <li class="list-group-item justify-content-between align-items-start">
+                            <div class="me-5">
+                                <div class="fw-bold">Second product</div>
+                                Brief description
+                            </div>
+                        <li class="list-group-item justify-content-between align-items-start">
+                            <div class="me-5">
+                                <div class="fw-bold">Third item</div>
+                                Brief description
+                            </div>
+                </form>
+                <div class="promo">
+                    <div class="card mt-3" style="width: 19em">
+                        <div class="card-body">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Promo Code" aria-label="Promo-code"
+                                    aria-describedby="button-addon2">
+                                <button class="btn btn-secondary" type="button" id="button-addon2">Redeem</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form class="row g-3">
+                    <div class="billing mt-3">
+                        <h3>Billing Address</h3>
+                    </div>
+                    <div class="col-md-6 mt-3 fw-bold">
+                        <label for="inputEmail4" class="form-label">First Name</label>
+                        <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6 mt-3 fw-bold">
+                        <label for="inputPassword4" class="form-label">Last Name</label>
+                        <input type="password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-md-12 mt-3 fw-bold">
+                        <label for="inputEmail4" class="form-label">Username</label>
+                        <label class="visually-hidden" for="autoSizingInputGroup">Username</label>
+                        <div class="input-group">
+                            <div class="input-group-text">@</div>
+                            <input type="text" class="form-control" id="autoSizingInputGroup" placeholder="Username">
+                        </div>
+                        <div class="col-md-12 mt-3 fw-bold">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <label for="inputAddress" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="you@example.com">
+                        </div>
+                        <div class="col-md-12 mt-3 fw-bold">
+                            <label for="inputCity" class="form-label">Barangay</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-12 mt-3 fw-bold">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4 mt-3 fw-bold">
+                            <div class="row g-2">
+                                <label for="inputProv" class="form-label">Province</label>
+                                <select id="inputProv" class="form-select">
+                                    <option selected>Choose...</option>
+                                    <option>
+                                    <option value="1">Laguna</option>
+                                    <option value="2">Cavite</option>
+                                    <option value="3">Pampanga</option>
+                                    <option value="4">Rizal</option>
+                                    <option value="5">Romblon</option>
+                                    <option value="6">Quezon</option>
+                                    </option>
+                                </select>
+                            </div>
+                            <div class="col-md-3 mb-3 mt-3 fw-bold">
+                                <label for="inputZip" class="form-label">Zip</label>
+                                <input type="text" class="form-control" id="inputZip">
+                            </div>
+                        </div>
+                </form>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

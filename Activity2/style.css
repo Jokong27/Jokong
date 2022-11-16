@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #ADFF2F;
+    height: 150px;
+    width: 100%
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+footer {
+    background-color: #ADFF2F;
+    height: 150px;
+    width: 100%
+}
+
+.aside {
+    background-color: beige;
+    width: 15%;
+    height: 500px;
+}
+
+.nav {
+    width: 15%;
+    background-color: #8FBC8F;
+    height: 500px;
+}
+
+.form {
+    width: 20%;
+    background-color: beige;
+    height: 500px;
+    margin: 10px;
+    
+}
+
+.half {
+    width: 20%;
+    background-color: beige;
+    height: 500px;
+    margin: 10px;
+}
